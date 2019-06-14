@@ -396,7 +396,7 @@ public class MainActivity extends TitleActivity implements View.OnClickListener 
                 .setIcon(android.R.drawable.divider_horizontal_bright)
                 .setItems(new String[]{"使用说明",
                                 "1.导入文件仅接受.xls",
-                                "2.格式:题目、选项(最多六个)、答案;excel第一行即为导入第一道题;格式:题目、A、B、C、D、E、F、正确答案各一列",
+                                "2.格式：题目、选项(最多六个，输入时不满6个请在后列留空，判断题即视为两个选项)、答案；excel第一行即为导入第一道题；格式：题目、A、B、C、D、E、F、正确答案各一列",
                                 "3.正确答案格式：A（单选）、AB（多选）、对或错（判断）",
                                 "4.excel第一行即为导入第一道题，导出文件于SD卡/TestSystem/",
                                 "5.GitHub name,luozhengszj.",
