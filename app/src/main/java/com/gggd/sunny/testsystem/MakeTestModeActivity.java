@@ -208,8 +208,8 @@ public class MakeTestModeActivity extends TitleActivity {
             }
         }
         if(!judgefilepath.equals("")){
-            if(library.getJudge_num().equals("") || library.getMultiple_score().equals("")) {
-                Toast.makeText(this, "题信息请输入完整", Toast.LENGTH_SHORT).show();
+            if(library.getJudge_num().equals("") || library.getJudge_score().equals("")) {
+                Toast.makeText(this, "判断题信息请输入完整", Toast.LENGTH_SHORT).show();
                 limitflag = false;
                 return limitflag;
             }else{
